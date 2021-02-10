@@ -22,10 +22,11 @@ public class Principal {
 		Scanner in = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		
 		//Exibir um string com saudação específica usando printf
 		System.out.printf("Olá %s!", nome);
 		in.close();
+		
+		//Nota:adicionar leitura da idade e exibi-la
 	}
 
 }
